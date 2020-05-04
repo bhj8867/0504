@@ -1,7 +1,7 @@
 package p0504;//속성 학번 이름 주소 객체 5개 생성하여 출력 
 
 
-public class E01 {
+public class StudentDemo {
 	public static void main(String[] args) {
 		Student1 s1=new Student1();
 		s1.setHakbun(11);
