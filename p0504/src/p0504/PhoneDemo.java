@@ -4,9 +4,13 @@ class Phone{//붕어빵틀 먼저 만든다.(필드가 2개, 동작하는 매서
 	int value;
 	
 	Phone(){//클래스 이름과 동일해야하고, 매게변수 없어야 한다. new실행 하는 순간 이것먼저실행
+		
 		model="갤럭시s10";//model 값이 설정되지 않았을때 초기값
+		
 		System.out.println("생성자");//new가 세번 했기때문에 3번 반복
 	}
+	
+	
 	void print(){
 		System.out.println(value+"만원짜리 "+model+" 스마트폰 ");
 	}
